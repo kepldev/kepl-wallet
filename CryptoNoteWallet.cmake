@@ -1,0 +1,4 @@
+set(CN_PROJECT_NAME "KeplWallet")
+set(CN_CURRENCY_DISPLAY_NAME "KeplWallet")
+set(CN_CURRENCY_TICKER "KEPL")
+set(CN_VERSION 1.0.0)

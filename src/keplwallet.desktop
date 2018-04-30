@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Chavezcoin Wallet
+Comment=Chavezcoin wallet
+Exec=chavezcoinwallet %U
+Terminal=false
+Type=Application
+Icon=chavezcoin
+MimeType=x-scheme-handler/chavezcoin;
+Categories=Office;Finance;
