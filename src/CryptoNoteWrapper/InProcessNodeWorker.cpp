@@ -313,7 +313,7 @@ INodeAdapter::InitStatus InProcessNodeWorker::initCore() {
       if (!CryptoNote::DatabaseBlockchainCache::checkDBSchemeVersion(*m_database, m_loggerManager))
       {
         m_database->shutdown();
-        m_database->destoy(dbConfig);
+        m_database->destroy(dbConfig);
         m_database->init(dbConfig);
       }
     } catch (const std::system_error& _error) {
